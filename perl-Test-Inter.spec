@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	Inter
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Inter - framework for more readable interactive test scripts
 Summary(pl.UTF-8):	Test::Inter - szkielet dla bardziej czytelnych, interaktywnych skryptów testowych
 Name:		perl-Test-Inter
