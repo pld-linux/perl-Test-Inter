@@ -8,7 +8,7 @@ Summary:	Test::Inter - framework for more readable interactive test scripts
 Summary(pl.UTF-8):	Test::Inter - szkielet dla bardziej czytelnych, interaktywnych skryptów testowych
 Name:		perl-Test-Inter
 Version:	1.09
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
