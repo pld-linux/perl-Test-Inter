@@ -7,20 +7,17 @@
 Summary:	Test::Inter - framework for more readable interactive test scripts
 Summary(pl.UTF-8):	Test::Inter - szkielet dla bardziej czytelnych, interaktywnych skryptów testowych
 Name:		perl-Test-Inter
-Version:	1.09
-Release:	2
+Version:	1.13
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4e9bbe25e28d2453a6c63a1e675cc484
+Source0:	https://www.cpan.org/modules/by-authors/id/S/SB/SBECK/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	ccd6a4fcfde386c8dc4a7adfd7ec1170
 URL:		https://metacpan.org/release/Test-Inter
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
-BuildRequires:	perl-File-Find-Rule
-BuildRequires:	perl-Test-Pod >= 1.00
-BuildRequires:	perl-Test-Pod-Coverage >= 1.00
 BuildRequires:	perl-Test-Simple
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
